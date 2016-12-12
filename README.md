@@ -1,2 +1,3 @@
 # -MAOU
-KONO MAOU DA
+ Projetinho lixo para estudos meu.
+ 
