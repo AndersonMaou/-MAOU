@@ -1,0 +1,419 @@
+*{
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+body{
+    background-color: lightblue;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/**/
+/**
+ body{
+       background-image: url("file:///C:/WPP/7_tasogare_otome_x_amnesia.jpg");
+       background-repeat: repeat-y;
+}
+**/
+#menu_style{
+    background: #4682B4;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color:#B0C4DE;
+    position: relative;
+}
+.menu li{
+    font-size: 160%;
+    display: inline;
+    margin-left: 10px;
+    padding-top: 16px;
+}
+.menu li:hover{
+    border-top: 1px solid #191970; 
+}
+/*footer*/
+#footer{
+    height: 55px;
+    background: #4682B4;
+    clear: both;
+    position: relative;
+}
+/*search barra*/
+#search{
+    border-radius: 2px;
+    height: 30px;
+    width: 178px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -1px;
+}
+.barra{
+    height: 20px;
+    position: absolute;
+    right: 20%;
+    top: 24px;
+    cursor: pointer;
+}
+/*conteudo*/
+#mamahaha{
+    width: 100%;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.nha{
+    width: 95%;
+    height: 75%;
+    display: block;
+    padding: 1% 8px;
+}
+.jornal{
+    float: left;
+    width: 22%;
+    height: 200px;
+    display: inline-block;
+    margin: 10px 5px;
+    border-radius: 2px;
+    background: #4682B4;
+    margin-left: 25px;
+}
+/**/
+/**/
+
+/**#d1{
+    width: 300px;
+    height: 200px;
+    background: red;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 1s relative;
+}
+@-webkit-keyframes mymove{
+    from {background: blue;}
+    to {background: yellow;}
+}**/
+
+/** Div aside **/
+h3{
+    background:#6495ED;
+    padding-left: 10%;
+    padding: 15px;
+    border-bottom: 1px solid #6495ED;
+    border-radius: 2px;
+    font-weight: 900;
+    font-size: 18px;
+}
+#div_1{
+    background: #87CEEB;
+    width: 30%;
+    height: 1050px;
+    float: right;
+    margin: 5px 0;
+    margin-top: -1px;
+    margin-right: 1%;
+    position: relative;
+}
+.imagem{
+    height: 175px;
+    padding-top: 2px;
+    padding-left: 4px;
+    float: left;
+    position: relative;
+    transition: 2.0s;
+}
+.imagem:hover{
+    opacity: 0.6;
+}
+li{
+    list-style-type: none;}
+.titulo{
+    color: dodgerblue;
+    padding-top: -5px;
+    float: left;
+    position: relative;
+    margin-right: -20%;
+    font-size: 18px;
+    margin-left: 8px;
+}
+div.titulo:hover{
+    color: darkblue;
+}
+.desc-animes{
+    width: 40%;
+    top: -158px;
+    right: 110px;
+    clear: left;
+    float: right;
+    position: relative;
+}
+.item-top-animes{
+    margin-left: auto;
+    margin-right: auto;
+}
+/** Lista completa **/
+.lista{
+    text-align: center;
+    width: 840px;
+    height: 20px;
+    background: #4682B4;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.animes{
+    width: 856px;
+    position: relative;
+    height: 150%;
+    background: white;
+    margin-left: 2%;
+    padding: 2px;
+}
+.all{
+    text-decoration: none;
+    color: red;
+}
+.links{
+    font-size: 22px;
+    text-decoration: none;
+    color: darkblue;
+}
+.links:hover{
+    color: blue;
+}
+/****/
+.ta{
+    text-decoration: none;
+    margin-left: 7px;
+    margin-top: -1px;
+    font-size: 17px;
+    color: white;
+
+    float: left;
+}
+.ta:hover {
+    text-decoration: underline;
+}
+/**/
+.list-medias{
+    display: inline;
+}
+.snk{
+    width: 96px;
+    margin-left: 50px;
+    margin-top: 1px;
+    display: inline-block;
+}
+.sbt{
+    width: 125px;
+    position: relative;
+    top: -204px;
+    padding-right: 16px;
+    background: black;
+    color: white;
+    font-size: 10px;
+}
+.change{
+    height: px;
+}
+.position{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+/**conteudo escondido**/
+button.accordion {
+    background-color:#4682B4;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #4682B4;
+}
+button.accordion:after{
+    content: "\02795";
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 10px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+div.panel {
+    padding: 0 18px;
+    background-color: #4682B4;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.9s ease-in-out;
+    opacity: 0;
+    margin-bottom: 5px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+/** botão com movimento
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.9s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 10px;
+} **/
+
+/** Another-page **/
+.another-page{
+    text-align: center;
+    word-spacing: 7px;
+    font-size: 200%;
+    margin-top: 8px;
+    position: relative;
+}
+.page{
+    color: black;
+    font-family: monospace;}
+.page:hover{
+    color: red;
+}
+.another-font{
+    font-family: monospace;
+}
+/** Overdrive **/
+#overdrive{
+    background: white;
+    width: 860px;
+    height: 10%;
+    right: 34%;
+    margin-right: -1px;
+    position: absolute;
+}
+.desc-position{
+
+}
+.picture{
+    margin-right: 164px;
+    color: #DCDCDC;
+}
+/**Over drive -FIM- **/
+/** Lista **/
+.free{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Stone{
+    height: 200px;
+    border: 1px solid black;
+}
+.time{
+    color: black;
+    clear: both;
+    top: -26px;
+    right: -44px;
+    background: #ADD8E6;
+    position: relative;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 14px;
+}
+/**Profile**/
+.profile{
+    background: white;
+    width: 70%;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.height{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.stand{
+    width: 100%;
+    height: 98%;
+    position: relative;
+}
+.crash{
+    width: 101%;
+    height: 5%;
+    background: black;
+    top: 43%;
+    opacity: 0.6;
+    color: white;
+    font-size: 18px;
+    padding-top: 7px;
+    position: absolute;
+}
+.crash:after{
+    content:  "\02795";
+    float: right;
+    margin-top: -24px;
+    margin-right: 10px;
+}
+#hermit{
+    margin-left: 10px;
+    margin-bottom: 40px;
+    float: right;
+    height: 200px;
+    position: relative;
+}

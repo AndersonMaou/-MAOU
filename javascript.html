@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Javascript</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" src="estilo/css2.css"/>
+        <link rel="stylesheet" type="text/css" href="estilo/normalize.css">
+    </head>
+    
+    <body>
+        <button onclick="document.getElementById('myImage').src='/thumb/ybxlO.jpg'">Ligada</button>
+        <img id="myImage" src="/thumb/b983w.jpg">
+        <button onclick="document.getElementById('myImage').src='/thumb/b983w.jpg' ">Desligada</button>
+        <button onclick="alert('Boom!');">DO NOT PRESS</button>
+        
+        <script type="text/javascript">
+            console.log(typeof 4.5);
+            console.log(typeof "x");
+            console.log(false || true); //true
+            console.log(false || false); //false
+            alert(Math.max(10, 20, 30, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 120, 130, 140, 150, 10000000) +200);
+            confirm("true");
+            prompt("Diga-me algo que você sabe.", "Kono Maou da!");
+            var theNumber = Number(prompt("Pegue um número", "6"));
+            alert("Your number is the square root de " + theNumber * theNumber);
+            
+            var theNumber = Number(prompt("Pick a number", "2"));
+            if (!isNaN(theNumber))
+                alert("Your number is the square root de " +theNumber * theNumber);
+            else
+                alert("Ei! Por que você não me deu um número?");
+            
+            var num = Number(prompt("Pick a number here", ""));
+            if (num < 50)
+                alert("Pequeno");
+            else if(num < 100)
+                alert("Médio");
+            else
+                alert("Grande");
+            var number = 0;
+            while (number <= 10) {
+                alert(number);
+                number = number + 2;
+            }
+            
+            var a = 5;
+            var b = 10;
+            var c = 15;
+            var d = 20;
+            console.log(a + a + b + c + d);
+            a = b * 2;
+        </script>
+  </body>
+</html>
